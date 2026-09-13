@@ -21,7 +21,7 @@ Calculo-numerico-aplicado/
 ## PPCs Organizados:
 | # | Descrição |
 |---|---|
-| [PPC1](PPC1/) | Problemas de valor inicial e métodos de Runge-Kutta | 
+| [PPC1-Runge-Kutta](PPC1-Runge-Kutta/) | Problemas de valor inicial e métodos de Runge-Kutta | 
 |  | Raízes de polinômios e método de Bairstow | 
 |  |  | 
 |  |  | 
