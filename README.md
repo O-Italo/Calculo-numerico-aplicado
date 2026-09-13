@@ -1,8 +1,8 @@
-Cálculo Numérico Aplicado
+##Cálculo Numérico Aplicado
 
 Repositório criado para guarda os APCS e PPCs criados para a matéria Calculo númerico.
 
- Estrutura do repositório
+## Estrutura do repositório
 ```text
 Calculo-numerico-aplicado/
 │
@@ -18,7 +18,7 @@ Calculo-numerico-aplicado/
 │
 └── README.md
 ```
-PPCs Organizados:
+## PPCs Organizados:
 | # | Descrição |
 |---|---|
 | [PPC1](PPC1/) | Problemas de valor inicial e métodos de Runge-Kutta | 
@@ -27,3 +27,9 @@ PPCs Organizados:
 |  |  | 
 |  |  | 
 |  |  | 
+##  Referências e Ferramentas
+
+- **CHAPRA, Steven C.; CANALE, Raymond P. Métodos Numéricos para Engenharia. 5. ed. São Paulo: MCGraw-Hill, 2008.**
+- `numpy` — operações numéricas e vetorização
+- `matplotlib` — geração de gráficos e análises visuai
+- **Python 3.8+**
