@@ -22,7 +22,7 @@ Calculo-numerico-aplicado/
 | # | Descrição |
 |---|---|
 | [PPC1-Runge-Kutta](PPC1-Runge-Kutta/) | Problemas de valor inicial e métodos de Runge-Kutta | 
-|  | Raízes de polinômios e método de Bairstow | 
+| [PPC2-Método-de-Bairstow](PPPC2-Método-de-Bairstow/) | Raízes de polinômios e método de Bairstow | 
 |  |  | 
 |  |  | 
 |  |  | 
