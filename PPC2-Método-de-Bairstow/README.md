@@ -81,24 +81,6 @@ Varre uma grade de pontos $(r_0, s_0)$ e imprime o número de iterações gastas
 ### Análise 4 — Fractal de Bairstow
 Gera um mapa de calor de $200 \times 200$ pontos no domínio $[-3, 3]^2$. Cada coordenada recebe uma cor baseada na quantidade de iterações necessárias para convergir. inferno (claro = poucos iters, escuro = muitos iters, preto = divergiu)
 ```
-
-
----
-
-## 📐 Tabela de funções principais
-
-| Função | Descrição |
-|---|---|
-| `calcula_b(coeficientes, r, s)` | Divisão sintética → coeficientes $b_i$ |
-| `calcula_c(b, r, s)` | Segunda divisão sintética → coeficientes $c_i$ |
-| `iteracao_bairstow(coeficientes, r, s)` | Um passo Newton-Raphson → $(\Delta r, \Delta s)$ |
-| `bairstow(coeffs, r0, s0, tol, max_iter)` | Método completo → todas as raízes |
-| `analise_validacao_grau7()` | Validação com polinômio grau 7 |
-| `analise_sistema_apc2()` | Autovalores do sistema 2-GDL |
-| `analise_sensibilidade()` | Grade de chutes iniciais |
-| `gerar_fractal_bairstow())` | Mapa fractal no plano $(r_0, s_0)$ |
-| `exportar_raizes(...)` | Salva raízes em `.csv` |
-
 ---
 
 ##  ratamento de Erros e Limitações
@@ -107,7 +89,7 @@ Gera um mapa de calor de $200 \times 200$ pontos no domínio $[-3, 3]^2$. Cada c
 - A convergência tende a ser rápida (quadrática), mas em áreas escuras do fractal pode falhar em atingir a tolerância no limite de passos.
 ---
 
-## 📚 Referências
+##  Referências
 
 1. Chapra, S. C., Canale, R. P. — *Métodos Numéricos para Engenharia*, McGraw-Hill, 5ª ed. (2008) — Capítulo 9.
 2. Bairstow, L. — *Applied Aerodynamics*, Longmans (1920) — Apêndice.
